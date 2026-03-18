@@ -1,0 +1,28 @@
+:root {
+  /* 🔔 메인 포인트 색상 */
+  --main-color: #67b2c5;
+
+  /* 🔔 서브 포인트 색상 */
+  --main-dark-color: #317590;
+
+  /* 🔔 기본 색상 (제목) */
+  --basic-color: #1a1a1a;
+
+  /* 🔔 기본 색상 (제목 제외) */
+  --sub-basic-color: #0a0a0a;
+
+  /* 🔔 기본 색상 (흐린 회색) */
+  --gray-color: #9ca3af;
+
+  /* 🔔 빨간 색상 (제목 제외) */
+  --red-color: #f3675c;
+
+  /* 🔔 박스 배경색 */
+  --box-bg-color: #1a1a1a;
+
+  /* 🔔 border color */
+  --border-color: #bfbfbf;
+
+  /* 🔔 그림자 색 */
+  --shadow-color: #000;
+}
