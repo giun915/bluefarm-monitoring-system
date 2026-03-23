@@ -27,6 +27,7 @@ const submitLogin = () => {
 
   if (loginId.value == MOCK_ID && loginPassword.value == MOCK_PASSWORD) {
     sessionStorage.setItem('isLoggedIn', 'true')
+    sessionStorage.setItem('loginId', loginId.value)
 
     if (rememberId.value) {
       localStorage.setItem('savedLoginId', loginId.value)
