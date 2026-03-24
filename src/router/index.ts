@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 import LoginView from '@/views/LoginView.vue'
 import DashboardView from '@/views/DashboardView.vue'
+import HomeView from '@/views/HomeView.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -11,6 +12,12 @@ const routes: RouteRecordRaw[] = [
     path: '/login',
     name: 'login',
     component: LoginView,
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: HomeView,
+    meta: { requiresAuth: true },
   },
   {
     path: '/dashboard',
@@ -34,7 +41,7 @@ router.beforeEach((to, from, next) => {
   }
 
   if (to.path === '/login' && isLoggedIn) {
-    next('/dashboard')
+    next('/home')
     return
   }
 

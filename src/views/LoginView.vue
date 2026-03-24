@@ -35,7 +35,7 @@ const submitLogin = () => {
       localStorage.removeItem('savedLoginId')
     }
 
-    router.push('/dashboard')
+    router.push('/home')
     return
   }
 
