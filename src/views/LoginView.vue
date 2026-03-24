@@ -57,7 +57,7 @@ onMounted(() => {
     <div class="login_box">
       <div class="box_inner">
         <h2 class="box_title">
-          Blue Farm
+          CoreOps
           <br />
           Monitoring System
         </h2>

@@ -27,7 +27,7 @@ const submitLogout = () => {
         <i>
           <IconHome />
         </i>
-        <h4>BlueFarm</h4>
+        <h4>CoreOps</h4>
       </RouterLink>
       <nav aria-label="주요 메뉴">
         <ul>

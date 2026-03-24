@@ -1,1 +1,5 @@
-<template>홈</template>
+<script setup lang="ts"></script>
+
+<template>
+  <main></main>
+</template>
