@@ -181,6 +181,7 @@ path {
   box-shadow: 0px 0px 32px -8px rgba(30, 71, 142, 0.4);
   border-radius: 1rem;
   flex-direction: column;
+  z-index: 3;
 }
 
 .has_scroll {

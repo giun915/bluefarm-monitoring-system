@@ -35,7 +35,7 @@ const warningCount = computed(() => {
   position: absolute;
   top: 2rem;
   left: 2.5rem;
-  background: var(--box-bg-color);
+  background: #303030;
   gap: 0.75rem;
 }
 
