@@ -199,10 +199,6 @@ path {
   box-sizing: border-box;
 }
 
-.close_btn:hover {
-  background: #fff;
-}
-
 ul {
   display: flex;
   flex-direction: column;

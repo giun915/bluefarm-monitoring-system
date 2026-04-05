@@ -15,10 +15,13 @@
   --gray-color: #9ca3af;
 
   /* 🔔 빨간 색상 (제목 제외) */
-  --red-color: #f3675c;
+  --red-color: #fc5151;
+
+  /* 🔔 푸른 색상 (제목 제외) */
+  --blue-color: #156bff;
 
   /* 🔔 박스 배경색 */
-  --box-bg-color: #ebebeb;
+  --box-bg-color: #303030;
 
   /* 🔔 border color */
   --border-color: #bfbfbf;
